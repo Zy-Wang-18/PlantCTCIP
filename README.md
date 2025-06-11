@@ -1,9 +1,9 @@
-# PLantCTCIP
+# PlantCTCIP
 
 **PlantCTCIP** is a deep learning model that integrates Convolutional Neural Networks (CNN) and Transformer architectures for accurate chromatin interaction prediction in multiple plants. This innovative approach combines the spatial feature extraction capabilities of CNNs with the sequential modeling power of Transformers to predict chromatin interactions across different plant species.
 
 
-## PLantCTCIP Introduction
+## PlantCTCIP Introduction
 
 We have developed a deep learning model named PlantCTCIP for predicting chromatin interactions across multiple crop species. This model adopts a hybrid architecture: it first employs convolutional layers to extract spatial features from genomic data, and then uses Transformer encoder layers to capture long-range dependencies and complex interaction patterns. This approach enables accurate prediction of chromatin interactions, which is crucial for understanding plant genome architecture and gene regulatory mechanisms.
 
@@ -23,7 +23,7 @@ The model is trained and evaluated on chromosome interaction data from multiple 
 
 ## Environment
 
-# CUDA Environment
+### CUDA Environment
 
 If you are running this project using GPU, please configure CUDA and cuDNN according to this version.
 
@@ -32,7 +32,7 @@ If you are running this project using GPU, please configure CUDA and cuDNN accor
 | CUDA  | 11.1    |
 | cuDNN | 8.0.5   |
 
-# Package Environment
+### Package Environment
 
 See "requirements_condalist.txt" for specific details.
 
@@ -48,7 +48,7 @@ Key dependencies include:
 
 ## Model Architecture
 
-The PLantCTCIP model architecture includes:
+The PlantCTCIP model architecture includes:
 
 - **Input Layer**: Accepts single-channel genomic sequence data
 - **Convolutional Layers**: 
