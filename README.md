@@ -16,10 +16,10 @@ The PlantCTCIP model consists of three main components:
 ## Data Introduction
 
 The model is trained and evaluated on chromosome interaction data from multiple plant species, including:
-- **PPIs: Promoter proximal region interaction
-- **PDIs: Promoter-proximal and distal interactions
-- **GWI: Whole genome chromatin interaction
-- **Four Species: The training data includes four crops: maize, rice, wheat, and cotton. The data used includes: reference genome, chromatin interactions, expression levels, TFs, eQTLs, and multi omics data.
+- PPIs: Promoter proximal region interaction
+- PDIs: Promoter-proximal and distal interactions
+- GWI: Whole genome chromatin interaction
+- Four Species: The training data includes four crops: maize, rice, wheat, and cotton. The data used includes: reference genome, chromatin interactions, expression levels, TFs, eQTLs, and multi omics data.
 
 ## Environment
 
